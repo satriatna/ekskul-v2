@@ -39,7 +39,8 @@
                     
                     <tr class="data-row">
                     <td class="align-middle iteration"> </td>
-                    <td class="align-middle nis">{{$s->nis}} <input name="siswa[]" type="hidden" value="{{$s->id}}">  <input type="hidden" name="keputrian_id" value="{{$keputrian->id_keputrian}}"> </td>
+                    <td class="align-middle nis">{{$s->nis}} <input name="siswa[]" type="hidden" value="{{$s->id}}"> 
+                     <input type="hidden" name="keputrian_id" value="{{$keputrian->id_keputrian}}"> </td>
                     <td class="align-middle name">{{$s->nama}}</td>
                     <td class="align-middle word-break description2">{{$s->nama_rayon}}</td>
                     <td>

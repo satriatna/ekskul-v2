@@ -12,7 +12,7 @@
       </div>
 
       <div class="intro-info">
-        <h2>Tingkatkan Bakat Mu <br>bersama<br>Ekskul Wikrama</h2>
+        <h2>Tingkatkan Bakat Mu <br>bersama<br>Ekskul Kami</h2>
         <div>
           <a href="/login" class="btn-get-started scrollto">Masuk</a>
         </div>
@@ -97,7 +97,7 @@
           @foreach($senbud as $sen)
           <div class="col-lg-4 col-md-6 portfolio-item filter-senbud">
             <div class="portfolio-wrap">
-              <img src="{{url('/assets/img/database/'.$sen->foto_senbud)}}" class="img-fluid" alt="">
+              <img src="{{url('/assets/img/database/'.$sen->foto_senbud)}}" class="img-fluid" alt="" style="height: 300px; width:350px">
               <div class="portfolio-info">
                 <h4><a href="#">{{$sen->nama_senbud}}</a></h4>
                 <div>
@@ -111,7 +111,7 @@
           @foreach($ekskul_biasa as $eks_biasa)
           <div class="col-lg-4 col-md-6 portfolio-item filter-eksnon">
             <div class="portfolio-wrap">
-              <img src="{{url('/assets/img/database/'.$eks_biasa->foto_ekskul_biasa)}}" class="img-fluid" alt="">
+              <img src="{{url('/assets/img/database/'.$eks_biasa->foto_ekskul_biasa)}}" class="img-fluid" alt="" style="height: 300px; width:350px">
               <div class="portfolio-info">
                 <h4><a href="#">{{$eks_biasa->nama_ekskul_biasa}}</a></h4>
                 <div>
@@ -125,7 +125,7 @@
           @foreach($ekskul_produktif as $eks_prod)
           <div class="col-lg-4 col-md-6 portfolio-item filter-eksprod">
             <div class="portfolio-wrap">
-              <img src="{{url('/assets/img/database/'.$eks_prod->foto_ekskul_produktif)}}" class="img-fluid" alt="">
+              <img src="{{url('/assets/img/database/'.$eks_prod->foto_ekskul_produktif)}}" class="img-fluid" alt="" style="height: 300px; width:350px">
               <div class="portfolio-info">
                 <h4><a href="#">{{$eks_prod->nama_ekskul_produktif}}</a></h4>
                 <div>
@@ -139,7 +139,7 @@
           @foreach($keputrian as $kep)
           <div class="col-lg-4 col-md-6 portfolio-item filter-keputrian">
             <div class="portfolio-wrap">
-              <img src="{{url('/assets/img/database/'.$kep->foto_keputrian)}}" class="img-fluid" alt="">
+              <img src="{{url('/assets/img/database/'.$kep->foto_keputrian)}}" class="img-fluid" alt="" style="height: 300px; width:350px">
               <div class="portfolio-info">
                 <h4><a href="#">{{$kep->nama_keputrian}}</a></h4>
                 <div>
