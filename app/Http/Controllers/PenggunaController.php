@@ -211,7 +211,7 @@ class PenggunaController extends Controller
             $join->on('users.rayon_id', '=', 'tb_rayon.id_rayon');
         })
         ->get();
-        return view('pengguna/detail2',compact('pengguna_detail','pengguna','rombel','rayon','jurusan','senbud','upd'));
+        return view('pengguna/detail2',compact('pengguna_detail','pengguna','rombel','rayon','jurusan','senbud'));
     }
     public function user_detail($id)
     {
